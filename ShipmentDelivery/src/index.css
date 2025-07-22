@@ -1,0 +1,182 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+
+
+/* Auth forms */
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #9fb7d1;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.error-msg {
+  color: red;
+  margin-bottom: 15px;
+}
+
+/* Shipment Form */
+.shipment-form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
+}
+
+.shipment-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.shipment-form input[type="text"],
+.shipment-form textarea,
+.shipment-form select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+.shipment-form textarea {
+  min-height: 80px;
+}
+
+.shipment-form button {
+  background-color: #9fb7d1;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.shipment-form button:disabled {
+  background-color: #888;
+  cursor: not-allowed;
+}
+
+.estimate-cost {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Shipment List */
+.shipment-list-container {
+  max-width: 900px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
+  overflow-x: auto;
+}
+
+.shipment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shipment-table th,
+.shipment-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.shipment-table th {
+  background-color: #9fb7d1;
+  color: white;
+  font-weight: 700;
+}
+
+/* Tracking Page */
+.tracking-container {
+  max-width: 500px;
+  margin: 30px auto;
+  background: white;
+  padding: 25px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
+  text-align: center;
+}
+
+.tracking-container input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.tracking-container button {
+  padding: 10px 18px;
+  font-weight: 600;
+  border: none;
+  background-color: #9fb7d1;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tracking-container button:hover {
+  background-color: #002752;
+}
+
+.error {
+  color: red;
+  margin-top: 15px;
+}
+
+.shipment-details {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.shipment-details p {
+  margin: 6px 0;
+}

@@ -1,0 +1,70 @@
+.shipment-list-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.shipment-list-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.shipment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shipment-table th,
+.shipment-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.shipment-table th {
+  background-color: #5f87b3;
+  color: white;
+}
+
+.shipment-table tbody tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.shipment-table input,
+.shipment-table select {
+  padding: 6px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.shipment-table button {
+  margin-right: 5px;
+  padding: 6px 10px;
+  background-color: #5c80a6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.shipment-table button:hover {
+  background-color: #0056b3;
+}
+
+.shipment-table button:last-child {
+  background-color: #dc3545;
+}
+
+.shipment-table button:last-child:hover {
+  background-color: #b02a37;
+}

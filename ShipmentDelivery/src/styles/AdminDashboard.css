@@ -1,0 +1,62 @@
+/* src/styles/AdminDashboard.css */
+
+.admin-dashboard {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #9db4cd; /* Light yellowish background */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(202, 225, 240, 0.975);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.admin-dashboard h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #69829c; /* Golden Yellow */
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.shipment-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.shipment-table thead {
+  background-color: #4d6986; /* Golden yellow header */
+  color: white;
+}
+
+.shipment-table th,
+.shipment-table td {
+  padding: 12px 15px;
+  border: 1px solid #466e98;
+  text-align: left;
+  font-size: 0.95rem;
+}
+
+.shipment-table tbody tr:nth-child(even) {
+  background-color: #9db4cd; /* Slightly lighter yellow for zebra effect */
+}
+
+.shipment-table tbody tr:hover {
+  background-color: #9db4cd;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #e63946; /* Strong red */
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover {
+  background-color: #b52b35;
+  cursor: pointer;
+}
